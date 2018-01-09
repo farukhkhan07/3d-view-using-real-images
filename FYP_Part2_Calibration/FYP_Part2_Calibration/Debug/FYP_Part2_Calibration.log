@@ -1,0 +1,13 @@
+﻿Build started 8/15/2015 3:43:38 PM.
+     1>Project "c:\Users\hp\documents\visual studio 2013\Projects\FYP_Part2_Calibration\FYP_Part2_Calibration\FYP_Part2_Calibration.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual 2013\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FYP_Part2_Calibration.cpp
+         FYP_Part2_Calibration.cpp
+       Link:
+         E:\Visual 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\hp\documents\visual studio 2013\Projects\FYP_Part2_Calibration\Debug\FYP_Part2_Calibration.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_contrib2410d.lib opencv_calib3d2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\hp\documents\visual studio 2013\Projects\FYP_Part2_Calibration\Debug\FYP_Part2_Calibration.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\hp\documents\visual studio 2013\Projects\FYP_Part2_Calibration\Debug\FYP_Part2_Calibration.lib" /MACHINE:X86 Debug\FYP_Part2_Calibration.obj
+         FYP_Part2_Calibration.vcxproj -> c:\users\hp\documents\visual studio 2013\Projects\FYP_Part2_Calibration\Debug\FYP_Part2_Calibration.exe
+     1>Done Building Project "c:\Users\hp\documents\visual studio 2013\Projects\FYP_Part2_Calibration\FYP_Part2_Calibration\FYP_Part2_Calibration.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.44
