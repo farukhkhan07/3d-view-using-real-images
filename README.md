@@ -15,5 +15,6 @@
 	•	OPEN CV with C++ interface configured in Microsoft Visual Studio.
 (OPEN CV is a tool to develop 3D Models and is configured in Microsoft Visual Studio.)
 # 2.4 Functional Requirements
-# 2.4.1 Pair Saving GUI:Pair saving technique is used to detect the positions and capture the results of two cameras. The images can be captured by pressing the space bar.
+# 2.4.1 Pair Saving GUI:
+• Pair saving technique is used to detect the positions and capture the results of two cameras. The images can be captured by pressing the space bar.
 
