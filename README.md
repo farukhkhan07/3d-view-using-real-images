@@ -56,6 +56,7 @@ gam is gamma.
 
 # 2 Calibration
 After taking the left and right pictures in the pair saving, the step of calibration is to cross-check the intrinsic and extrinsic values of the camera. The extrinsic and intrinsic values of cameras give us the following XML and YML files.
+
 	•	Distortion coefficient of camera 1
 	•	Distortion coefficient of camera 2
 	•	Camera Matrix 1
