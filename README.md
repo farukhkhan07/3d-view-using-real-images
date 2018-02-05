@@ -14,7 +14,29 @@
 (Microsoft Visual Studio is the integrated development environment in which different libraries are added.)
 	•	OPEN CV with C++ interface configured in Microsoft Visual Studio.
 (OPEN CV is a tool to develop 3D Models and is configured in Microsoft Visual Studio.)
-# 2.4 Functional Requirements
-# 2.4.1 Pair Saving GUI:
-• Pair saving technique is used to detect the positions and capture the results of two cameras. The images can be captured by pressing the space bar.
+
+# Implementation 
+# 5.1 Pair Saving
+• In pair saving, stereo cameras are placed in particular positions. This method helps to get the mixed results of both cameras. “Addweighted” function of Open CV is used to get the mixed result. 
+• Note: For taking the images, we use “space bar”.
+# 5.1.1 “Addweighted” function:
+The “addweighted” function is used to determine the sum of the two arrays. It is used to check the position level of the cameras C++ format: void adwghtd   (ip array sr1,d.alp,ip array sr2,d.bet, d.gma,op.arraydst,int m typ 2)
+# 5.1.2 Parameters:
+Following are the seven parameters of the “addweighted” function:
+a. Input Source Array 1: It is the first input of the camera.
+b. Alpha: It is used for the weight of first array elements.
+c. Input Source Array 2: It is the second input of the camera.
+d. Beta: It is used for the weight of second array elements.
+e. Gamma: It is a scalar which is added to each and every sum.
+f. dst: It is an output array which has the same size and the number of channels.
+g. (d type):When both the arrays have the same depth then it is an optional method. Addweighted calculates the sum of the two arrays by using the following equation:
+d (m) = sat ( sr1 (m) * alp+ sr2 (m)* bet+ gam)
+# Where:
+d is destination.
+sat is saturate.
+sr is source.
+alp is alpha.
+bet is beta.
+gam is gamma.
+
 
