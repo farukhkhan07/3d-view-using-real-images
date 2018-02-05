@@ -24,7 +24,9 @@ The “addweighted” function is used to determine the sum of the two arrays. I
 # 5.1.2 Parameters:
 Following are the seven parameters of the “addweighted” function:
 a. Input Source Array 1: It is the first input of the camera.
+
 b. Alpha: It is used for the weight of first array elements.
+
 c. Input Source Array 2: It is the second input of the camera.
 d. Beta: It is used for the weight of second array elements.
 e. Gamma: It is a scalar which is added to each and every sum.
