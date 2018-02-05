@@ -67,9 +67,10 @@ After taking the left and right pictures in the pair saving, the step of calibra
 	•	Rotation of camera 2
 	•	Translation
 	•	Q Matrix
-	•	Distortion Coefficient:The distortion coefficient is same as the camera resolution. These resolutions are scaled next to the existing resolutionfrom the resolutionwhich is calibrated. Distortion Coefficients = (a1 a2 b1 b2a3)
-	•	Camera Matrix: If we want additional information about intrinsic and extrinsicparameters, camera matrix is desired. It includes focal length (fs,fe) and the optical centers (Cz,Cr).
-	•	Rotation:Rotation is linear transformation .It is used to rotate the image. We can also generate the rotation matrix. 
+	•	Distortion Coefficient:The distortion coefficient is same as the camera resolution. These resolutions are	         scaled next to the existing resolutionfrom the resolutionwhich is calibrated. 
+		Distortion Coefficients = (a1 a2 b1 b2 a3)
+	•	Camera Matrix: If we want additional information about intrinsic and extrinsicparameters, camera matrix is		  desired. It includes focal length (fs,fe) and the optical centers (Cz,Cr).
+	•	Rotation:Rotation is linear transformation .It is used to rotate the image. We can also generate the 			rotation matrix. 
 	It includes two things.
 	
 	•	The center where the image rotates.
