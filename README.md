@@ -54,3 +54,26 @@ bet is beta.
 gam is gamma.
 
 
+# 2 Calibration
+After taking the left and right pictures in the pair saving, the step of calibration is to cross-check the intrinsic and extrinsic values of the camera. The extrinsic and intrinsic values of cameras give us the following XML and YML files.
+	•	Distortion coefficient of camera 1
+	•	Distortion coefficient of camera 2
+	•	Camera Matrix 1
+	•	Camera Matrix 2
+	•	Map of X and Y of camera 1
+	•	Map of X and Y of camera 2
+	•	Rotation of camera 1
+	•	Rotation of camera 2
+	•	Translation
+	•	Q Matrix
+	•	Distortion Coefficient:The distortion coefficient is same as the camera resolution. These resolutions are scaled next to the existing resolutionfrom the resolutionwhich is calibrated. Distortion Coefficients = (a1 a2 b1 b2a3)
+	•	Camera Matrix: If we want additional information about intrinsic and extrinsicparameters, camera matrix is desired. It includes focal length (fs,fe) and the optical centers (Cz,Cr).
+	•	Rotation:Rotation is linear transformation .It is used to rotate the image. We can also generate the rotation matrix. 
+	It includes two things.
+	
+	•	The center where the image rotates.
+	•	The angle which have to be rotated. 
+	•	Translation:Translation is a vector addition. It moves a vector to a certain distancein a certain direction.
+
+
+
