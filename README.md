@@ -1,4 +1,6 @@
 # 3d-view-using-real-images
+
+The main aim of this project is to taking the live pictures of an object and viewing it in a 3D View. In this project two cameras as a Robotic Eye are used for taking the live pictures of the objects and viewing it in a 3D View using OPENCV, POINT CLOUD LIBRARY. 
 Please refer to Documentation for usage.
  
 # Calibraiton Of Cameras Preview
